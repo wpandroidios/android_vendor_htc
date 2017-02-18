@@ -606,6 +606,18 @@ PRODUCT_COPY_FILES += \
     vendor/htc/b3-common/proprietary/vendor/lib/libchromatix_vd6869_preview_24fps.so:system/vendor/lib/libchromatix_vd6869_preview_24fps.so \
     vendor/htc/b3-common/proprietary/vendor/lib/libchromatix_vd6869_preview.so:system/vendor/lib/libchromatix_vd6869_preview.so \
     vendor/htc/b3-common/proprietary/vendor/lib/libchromatix_vd6869_snapshot.so:system/vendor/lib/libchromatix_vd6869_snapshot.so \
+    vendor/htc/b3-common/proprietary/vendor/lib/libchromatix_ov2722_subcam_common.so:system/vendor/lib/libchromatix_ov2722_subcam_common.so \
+    vendor/htc/b3-common/proprietary/vendor/lib/libchromatix_ov2722_subcam_cpp_liveshot.so:system/vendor/lib/libchromatix_ov2722_subcam_cpp_liveshot.so \
+    vendor/htc/b3-common/proprietary/vendor/lib/libchromatix_ov2722_subcam_cpp_preview.so:system/vendor/lib/libchromatix_ov2722_subcam_cpp_preview.so \
+    vendor/htc/b3-common/proprietary/vendor/lib/libchromatix_ov2722_subcam_cpp_snapshot.so:system/vendor/lib/libchromatix_ov2722_subcam_cpp_snapshot.so \
+    vendor/htc/b3-common/proprietary/vendor/lib/libchromatix_ov2722_subcam_cpp_video.so:system/vendor/lib/libchromatix_ov2722_subcam_cpp_video.so \
+    vendor/htc/b3-common/proprietary/vendor/lib/libchromatix_ov2722_subcam_default_video.so:system/vendor/lib/libchromatix_ov2722_subcam_default_video.so \
+    vendor/htc/b3-common/proprietary/vendor/lib/libchromatix_ov2722_subcam_hdr.so:system/vendor/lib/libchromatix_ov2722_subcam_hdr.so \
+    vendor/htc/b3-common/proprietary/vendor/lib/libchromatix_ov2722_subcam_liveshot.so:system/vendor/lib/libchromatix_ov2722_subcam_liveshot.so \
+    vendor/htc/b3-common/proprietary/vendor/lib/libchromatix_ov2722_subcam_postproc.so:system/vendor/lib/libchromatix_ov2722_subcam_postproc.so \
+    vendor/htc/b3-common/proprietary/vendor/lib/libchromatix_ov2722_subcam_preview.so:system/vendor/lib/libchromatix_ov2722_subcam_preview.so \
+    vendor/htc/b3-common/proprietary/vendor/lib/libchromatix_ov2722_subcam_snapshot.so:system/vendor/lib/libchromatix_ov2722_subcam_snapshot.so \
+    vendor/htc/b3-common/proprietary/vendor/lib/libmmcamera_ov2722_subcam.so:system/vendor/lib/libmmcamera_ov2722_subcam.so \
     vendor/htc/b3-common/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/htc/b3-common/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/htc/b3-common/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
