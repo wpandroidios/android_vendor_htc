@@ -14,7 +14,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter b2wlj imnj,$(TARGET_DEVICE)),)
+ifneq ($(filter b3uhl b2wlj imnj,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := KDDI_Felicalock
