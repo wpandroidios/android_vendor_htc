@@ -19,7 +19,7 @@ ifneq ($(filter b2wlj imnj,$(TARGET_DEVICE)),)
 include $(CLEAR_VARS)
 LOCAL_MODULE := KDDI_Felicalock
 LOCAL_MODULE_OWNER := htc
-LOCAL_SRC_FILES := proprietary/app/KDDI_Felicalock.apk
+LOCAL_SRC_FILES := proprietary/app/KDDI_Felicalock/KDDI_Felicalock.apk
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 # LOCAL_MODULE_SUFFIX := .apk
@@ -30,7 +30,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := MobileFeliCaClient
 LOCAL_MODULE_OWNER := htc
-LOCAL_SRC_FILES := proprietary/app/MobileFeliCaClient.apk
+LOCAL_SRC_FILES := proprietary/app/MobileFeliCaClient/MobileFeliCaClient.apk
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_MODULE_CLASS := APPS
@@ -40,7 +40,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := MobileFeliCaMenuApp
 LOCAL_MODULE_OWNER := htc
-LOCAL_SRC_FILES := proprietary/app/MobileFeliCaMenuApp.apk
+LOCAL_SRC_FILES := proprietary/app/MobileFeliCaMenuApp/MobileFeliCaMenuApp.apk
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_MODULE_CLASS := APPS
@@ -50,7 +50,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := MobileFeliCaSettingApp
 LOCAL_MODULE_OWNER := htc
-LOCAL_SRC_FILES := proprietary/app/MobileFeliCaSettingApp.apk
+LOCAL_SRC_FILES := proprietary/app/MobileFeliCaSettingApp/MobileFeliCaSettingApp.apk
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_MODULE_CLASS := APPS
@@ -60,7 +60,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := MobileFeliCaWebPluginBoot
 LOCAL_MODULE_OWNER := htc
-LOCAL_SRC_FILES := proprietary/app/MobileFeliCaWebPluginBoot.apk
+LOCAL_SRC_FILES := proprietary/app/MobileFeliCaWebPluginBoot/MobileFeliCaWebPluginBoot.apk
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_MODULE_CLASS := APPS
